@@ -64,7 +64,7 @@ volumes:
 EOF
 
 echo "Starting stack..."
-docker compose up -d
+docker compose up -d postgres
 
 echo "Done."
 echo "Credentials saved in: $INSTALL_DIR/.env"
